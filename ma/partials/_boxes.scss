@@ -1,0 +1,19 @@
+.content-box {
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding-bottom: 100%;
+  margin: 5% 0;
+  background: getColour(bg2);
+  box-shadow: 2px 2px 8px #8d8d8d;
+}
+
+.accent-style-1 {
+  background: #fff;
+  border: 3px solid getColour(accent);
+}
+
+.accent-style-2 {
+  background: getColour(accent);
+  border: 3px solid #fff;
+}
